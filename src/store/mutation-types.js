@@ -1,0 +1,10 @@
+export const GET_COININFO = 'GET_COININFO';
+export const UPDATE_COINPRICE = 'UPDATE_COINPRICE';
+export const GET_KLINEDATA = 'GET_KLINEDATA';
+export const CHANGE_KLINETYPE = 'CHANGE_KLINETYPE'
+export const CHANGE_MENUNAV = 'CHANGE_MENUNAV'
+export const GET_PERSONALASSET = 'GET_PERSONALASSET'
+export const LOGIN = 'LOGIN'
+export const LOGOUT = 'LOGOUT'
+export const GETUSER = 'GETUSER'
+

@@ -1,0 +1,13 @@
+{
+  "students": [
+    {
+      "name": "Check_Lee",
+      "id": 10001,
+      "type": "com",
+      "like": {
+        "sports": "basketball",
+        "fruit": "mongo"
+      }
+    }
+  ]
+}

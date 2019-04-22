@@ -1,0 +1,75 @@
+$font-color: #fff;
+$aside-menu-bgc: #545c64;
+$aside-menu-bgc-hover: #434A50;
+
+.hello {
+  height: 100%;
+}
+
+
+.hello > .el-container {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.el-header {
+  background-color: $aside-menu-bgc;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+  padding: 0;
+  display: flex;
+
+  .box-card {
+    width: 240px;
+    height: 60px;
+    background-color: $aside-menu-bgc-hover;
+    line-height: 60px;
+    color: #fff;
+    text-align: left;
+    flex: 0 0 240px;
+
+    &__img {
+      display: inline;
+      padding: 15px 10px 15px 40px;
+      float: left;
+    }
+    .back {
+      margin-left: 30px;
+      cursor: pointer;
+    }
+  }
+
+  .menu-nav {
+    flex: 1;
+  }
+  .person-info {
+    color: #ffffff;
+    flex: 0 0 200px;
+    // background-color: hotpink;
+  }
+}
+
+
+.el-main {
+  color: #333;
+  text-align: center;
+  height: 100%;
+  padding: 0;
+  display: flex;
+
+  .coin-nav:not(.el-menu--collapse) {
+    width: 240px;
+    height: 100%;
+    flex: 0 0 240px;
+  }
+
+  #showPanel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
